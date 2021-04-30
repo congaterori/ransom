@@ -2,7 +2,7 @@
 ::mode 20,1
 ::this will run the program in hidden mode
 ::powershell -window hidden -command ""
-::attrib +h 7z
+attrib +h 7z.exe
 ::start /min "" "https://www.google.com/"
 ::this will set var for password that is inside Readme file
 ::set /A ran=%RANDOM% * 5 / 32768 + 1
